@@ -1,0 +1,40 @@
+.nav{
+    height: 80px;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+
+.e-com{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nav-profile{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.react-icon{
+    font-size: 28px;
+}
+
+.react-icon-profile{
+    font-size: 22px;
+}
