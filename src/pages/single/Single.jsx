@@ -9,7 +9,7 @@ import Line from '../../assets/single-line.png'
 import { useCart } from '../../context/CardContext';
 import { Link } from "react-router-dom"
 
-
+// import './Single.css'
 import "./Single.css";
 
 const SinglePage = () => {
@@ -85,4 +85,6 @@ const SinglePage = () => {
   );
 };
 
+
 export default SinglePage;
+
