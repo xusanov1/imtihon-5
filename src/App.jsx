@@ -6,6 +6,8 @@ import ProductList from './components/home/Home';
 import Nav from './components/nav/Nav';
 import Single from './pages/single/Single'
 import { CartProvider } from '../src/context/CardContext';
+import Profile from './pages/profile/Profile'
+import Footer from './components/footer/Footer'
 
 
 const App = () => {
@@ -18,7 +20,9 @@ const App = () => {
           <Route exact path='/register' element={<Register />} />
           <Route exact path='/login' element={<Login />} />
           <Route exact path='/product/:id' element={<Single />} />
+          <Route exact path='/profile' element={<Profile />} />
         </Routes>
+        <Footer />
       </CartProvider>
 
 

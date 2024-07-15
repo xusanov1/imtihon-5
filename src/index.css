@@ -10,9 +10,15 @@ body{
 .container{
   width: 1250px;
   margin: 0 auto;
+  overflow-x: hidden !important;
 }
 
 ul{
   list-style: none;
   padding: 0;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
 }

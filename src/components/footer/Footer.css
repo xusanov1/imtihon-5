@@ -1,0 +1,63 @@
+.footer-section{
+    background-color: rgba(188, 221, 254, 1);
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    padding: 40px 0;
+}
+
+.footer-icon{
+    width: 30px;
+    height: 30px;
+}
+
+span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.e-comu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.e-p{
+    width: 210px;
+    color: #00000096;
+}
+
+.follow-us p{
+    width: 210px;
+    color: #00000098;
+
+}
+
+.contact-us p{
+    width: 210px;
+    color: #00000096;
+
+}
+
+.plastic-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.plastic-cards p{
+    color: #00000096;
+}
+
+.plastic-card{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+

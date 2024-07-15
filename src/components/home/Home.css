@@ -83,4 +83,70 @@
     margin-bottom: 50px;
 }
 
+.adidas-section{
+    background-color: 
+    rgba(64, 191, 255, 1);
+}
+
+.adidas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+.adidas-info h2{
+    color: #fff;
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.adidas-info p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.adidas-info a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.adidas-img{
+    object-fit: cover;
+    margin-right: -100px !important;
+}
+
+.group-section{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    margin-left: 130px;
+}
+
+.group-text{
+    display: flex;
+    align-items: center;
+    gap: 178px;
+    text-align: center;
+}
+
+.group-text p{
+    width: 250px;
+}
+
+.top-products-title{
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.products-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 200px;
+}
 
